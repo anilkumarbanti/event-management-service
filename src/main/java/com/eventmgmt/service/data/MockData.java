@@ -30,11 +30,11 @@ new Organizer(3, "Michael Johnson", 4)
 );
 
 public static List<Attendee> attendees = Arrays.asList(
-new Attendee(1, "Alice", 25, "Female"),
-new Attendee(2, "Bob", 30, "Male"),
-new Attendee(3, "Carol", 28, "Female"),
-new Attendee(4, "David", 22, "Male"),
-new Attendee(5, "Eve", 35, "Female"),
-new Attendee(6, "Frank", 27, "Male")
+new Attendee(1, "Alice", 25, "Female",2),
+new Attendee(2, "Bob", 30, "Male",2),
+new Attendee(3, "Carol", 28, "Female",3),
+new Attendee(4, "David", 22, "Male",3),
+new Attendee(5, "Eve", 35, "Female",2),
+new Attendee(6, "Frank", 27, "Male",1)
 );
 }
